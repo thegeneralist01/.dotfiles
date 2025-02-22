@@ -1,0 +1,37 @@
+theme=tokyonight
+# font-family=SauceCodePro NFM Medium
+font-family=JetBrainsMonoNL NFM Medium
+font-family=Symbols Nerd Font Mono
+font-size=12.75
+
+#adjust-cell-height = -3
+
+#font-feature=ss02
+#font-feature=cv04
+#font-feature=cv14
+#font-feature=cv16
+
+#font-feature=zero
+#font-feature=cv06
+#font-feature=cv07
+#font-feature=cv11
+#font-feature=cv12
+#font-feature=cv16
+
+shell-integration-features = no-cursor
+cursor-style=block
+
+# The opacity level (opposite of transparency) of the background. A value of
+# 1 is fully opaque and a value of 0 is fully transparent. A value less than 0
+# or greater than 1 will be clamped to the nearest valid value.
+background-opacity = 1
+
+# A positive value enables blurring of the background when background-opacity
+# is less than 1. The value is the blur radius to apply. A value of 20
+# is reasonable for a good looking blur. Higher values will cause strange
+# rendering issues as well as performance issues.
+#
+# This is only supported on macOS.
+background-blur-radius = 0
+
+gtk-titlebar = false
