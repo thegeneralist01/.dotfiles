@@ -223,3 +223,8 @@ exec_always --no-startup-id xset r rate 200 25
 exec vmware-user-suid-wrapper --no-startup-id
 
 exec --no-startup-id xrdb -merge /home/thegeneralist01/.Xresources
+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioStop exec playerctl stop
