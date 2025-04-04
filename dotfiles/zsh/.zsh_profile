@@ -1,7 +1,7 @@
 export XDG_CONFIG_HOME=$HOME/.config
 VIM="nvim"
 export DOTFILES=$HOME/.dotfiles
-export GIT_EDITOR=$VIM
+export GIT_EDITOR="nvim"
 
 
 addToPathFront $HOME/.local/scripts
@@ -10,6 +10,6 @@ addToPathFront $HOME/personal/zen
 
 
 bindkey -s ^f "tmux-sessionizer\n"
-bindkey -s "^;" "tmux-cwd\n"
+bindkey -s "^[[59;5u" "tmux-cwd\n"
 bindkey -s ^k "vsummer\n"
 bindkey -s ^l "clear\n"

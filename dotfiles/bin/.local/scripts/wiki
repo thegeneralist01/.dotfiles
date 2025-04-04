@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+open "https://ru.wiktionary.org/wiki/$1"
